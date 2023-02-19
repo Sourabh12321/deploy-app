@@ -7,14 +7,14 @@ const {updateDelete} = require("./routes/update");
 const jwt = require('jsonwebtoken');
 
 const app = express();
-
 app.use(express.json());
 
 
 
-app.get("/",(req,res)=>{
-    res.send("home page")
-})
+
+
+
+
 
 app.use("/user",postData);
 app.use("/data",getData);
