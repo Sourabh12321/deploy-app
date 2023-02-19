@@ -23,10 +23,10 @@ app.use("/update",updateDelete);
 
 
 
-app.listen(1212,async ()=>{
+app.listen(1200,async ()=>{
     try{
         await connection
-        console.log("running at port 1212")
+        console.log("running at port 1200")
     }catch(err){
         console.log(err.message);
         console.log("something is wrong");
